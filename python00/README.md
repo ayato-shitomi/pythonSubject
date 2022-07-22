@@ -63,11 +63,11 @@ HELLO
 
 |提出するファイル|使う関数|
 |----|----|
-|print_some.py|print(), typeof()|
+|print_some.py|print(), type()|
 
 `print.py`
 ```
-print(typeof("HELLO"))
+print(type("HELLO"))
 ```
 
 この様なファイルを作ると、出力は以下のようになります。
@@ -92,7 +92,7 @@ HELLO <class 'str'>
 
 |提出するファイル|使う関数|
 |----|----|
-|type.py|print(), typeof()|
+|type.py|print(), type()|
 
 `1, 2, 3`が格納されたリストを作りましょう。
 さらに、リストとそれぞれの要素の型も出力してください。
